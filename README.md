@@ -120,6 +120,7 @@ Early-stage wearable stereo-vision interface for local hand-gesture recognition 
 - ROS2/Nav2 integration
 - Energy-efficient edge inference
 - Reproducible benchmarking of embedded NPU platforms
+- Wearable stereo-vision interface for gesture-based control
 
 ## Contact
 
