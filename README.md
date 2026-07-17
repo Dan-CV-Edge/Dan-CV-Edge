@@ -92,7 +92,18 @@ Engineering project for an automated two-pump drainage station.
 - Sensor monitoring
 - Emergency protection logic
 - Electrical and technical documentation
+  
+### [Radxa Stereo Gesture Interface](https://github.com/Dan-CV-Edge/radxa-stereo-gesture-interface)
 
+Early-stage wearable stereo-vision interface for local hand-gesture recognition and device control on Radxa Cubie A7A.
+
+- Stereo camera processing
+- 3D hand localization
+- Hand gesture recognition
+- C++ and OpenCV
+- ROS2 integration
+- Optional near-infrared mode
+- Local edge-AI inference without cloud processing
 ## Publications
 
 1. **Experimental Study of Neural Network Quantization Methods on an Embedded Neural Network Accelerator: Allwinner A733 Platform**  
