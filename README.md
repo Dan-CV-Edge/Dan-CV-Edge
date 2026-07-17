@@ -1,45 +1,117 @@
 # Danil Abdrakhmanov
 
-Edge AI / Embedded ML / Computer Vision Engineer
+## Edge AI / Embedded ML / Computer Vision Engineer
 
-I deploy and benchmark computer vision models on embedded NPUs:
-quantization, latency and power profiling, ROS2 integration.
+I develop and deploy computer vision models on embedded platforms with hardware NPU acceleration.
 
-## Focus
+My main interests are neural network quantization, embedded inference, performance profiling, energy-efficient computer vision and robotic systems.
 
-- Embedded computer vision and Edge AI
-- PTQ/QAT: UINT8, INT16 and mixed precision
-- Allwinner A733 / Vivante NPU / Acuity Toolkit
-- ROS2, stereo vision and semantic navigation
-- Industrial automation and robotic systems
+## About me
+
+- Master's student at Saint Petersburg Electrotechnical University “LETI”
+- Embedded AI and computer vision researcher
+- Experience with Allwinner A733 NPU and Acuity Toolkit
+- Experience with ROS2, PLCs, industrial automation and robotic systems
+- Interested in Edge AI, embedded Linux, robotics and autonomous platforms
+
+## Core skills
+
+### Edge AI and Computer Vision
+
+- PyTorch
+- OpenCV
+- ONNX / ONNX Runtime
+- YOLOv8 / YOLO11
+- Fast-SCNN
+- DeepLabV3+
+- Model quantization and deployment
+
+### Model Optimization
+
+- Post-Training Quantization (PTQ)
+- Quantization-Aware Training (QAT)
+- UINT8 and INT16 inference
+- NPU/CPU latency profiling
+- Power and thermal measurements
+- Benchmark design and reproducible experiments
+
+### Embedded and Robotics
+
+- Allwinner A733
+- Vivante NPU
+- Acuity Toolkit
+- Embedded Linux
+- ROS2
+- Stereo vision
+- Semantic navigation
+- Microcontrollers and PWM
+- PLC and industrial automation
 
 ## Selected results
 
-- Up to 59+ FPS for YOLO inference on Allwinner A733 NPU
-- Up to 15.8x acceleration over CPU/FP32
-- 0.65–1.03 W incremental board power during NPU inference
-- Published research on embedded neural-network quantization
+- Up to **59+ FPS** for YOLO inference on Allwinner A733 NPU
+- Up to **15.8× speedup** compared with CPU/FP32 inference
+- Incremental inference power of approximately **0.65–1.03 W**
+- Quantized model output cosine similarity up to **0.997–1.000**
+- Published research on neural network quantization for embedded NPU
+- Research article on energy efficiency currently under review
 
 ## Featured projects
 
-- A733 NPU Benchmark Suite
-- Semantic Stereo Navigation
-- Industrial Pumping Station Automation
+### [A733 Edge AI Benchmark](https://github.com/Dan-CV-Edge/a733-edge-ai-benchmark)
 
-## Результат
+Benchmarking computer vision models on the Allwinner A733 embedded NPU.
 
-Подготовлен комплект проектной документации для автоматизированной системы управления двухнасосной дренажной станцией. Проект включает описание объекта управления, подбор оборудования, схемы подключения, распределение сигналов ПЛК, организацию обмена с HMI и алгоритмы аварийной защиты.
+- YOLOv8, YOLO11, YOLOv26
+- Fast-SCNN and DeepLabV3+
+- UINT8, INT16 and PCQ quantization
+- Latency, accuracy and power analysis
+- Single-frame profiling methodology
 
-## Статус
+### Semantic Stereo Navigation
 
-Учебно-инженерный проект, выполненный в рамках междисциплинарного проекта «Интеграция» СПбГЭТУ «ЛЭТИ».
+Research project for a mobile robot based on:
 
-Документация предназначена для демонстрации подхода к проектированию АСУ ТП и требует дополнительной проверки и согласования перед промышленным внедрением.
+- Stereo camera
+- YOLO11 inference on embedded NPU
+- Region-of-interest depth estimation
+- ROS2
+- Semantic local costmap
+- Autonomous obstacle avoidance
 
-## Автор
+Project repository is under development.
 
-**Данил Абдрахманов**
+### [Drainage Pumping Station Automation](https://github.com/Dan-CV-Edge/Drainage-Pumping-Station-Automation-System-VEDA-PLC-HMI)
 
-Edge AI / Embedded ML / Computer Vision / Industrial Automation
+Engineering project for an automated two-pump drainage station.
 
+- VEDA PLC
+- HMI
+- Modbus TCP
+- Automatic and manual control modes
+- Sensor monitoring
+- Emergency protection logic
+- Electrical and technical documentation
+
+## Publications
+
+1. **Experimental Study of Neural Network Quantization Methods on an Embedded Neural Network Accelerator: Allwinner A733 Platform**  
+   Published in *Naukosfera*, 2026.  
+   DOI: [10.5281/zenodo.20759171](https://doi.org/10.5281/zenodo.20759171)
+
+2. **Experimental Evaluation of the Energy Efficiency of Computer Vision Models on an Embedded Neural Network Accelerator: Allwinner A733 Platform**  
+   Manuscript under review.
+
+## Currently working on
+
+- Semantic stereo navigation on an embedded single-board computer
+- ROI-based stereo depth estimation
+- ROS2/Nav2 integration
+- Energy-efficient edge inference
+- Reproducible benchmarking of embedded NPU platforms
+
+## Contact
+
+- Email: Abdraxmanov_03@list.ru
 - GitHub: [Dan-CV-Edge](https://github.com/Dan-CV-Edge)
+- Location: Saint Petersburg, Russia
